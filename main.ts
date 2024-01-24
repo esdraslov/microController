@@ -11,9 +11,9 @@ radio.onReceivedValue((name, value) => {
 
 namespace MicroController {
     export enum Button {
-        //% block
+        //% block="A"
         A,
-        //% block
+        //% block="B"
         B,
         //% block="Head (v2 only)"
         Head
